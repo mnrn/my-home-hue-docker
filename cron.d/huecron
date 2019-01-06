@@ -1,4 +1,4 @@
 SHELL=/bin/bash
 PATH=/sbin:/bin:/usr/sbin:/usr/bin
 MAILTO=""
-25 16 * * * root ./mnrn/my-home-hue/target/release/my_home_hue > /tmp/hue.log 2>&1
+29 16 * * * root /mnrn/my-home-hue/target/release/my_home_hue > /tmp/hue.log 2>&1
